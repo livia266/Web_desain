@@ -1,0 +1,58 @@
+
+/* 1. Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Mengatur tampilan halaman */
+body {
+    margin: 0;
+    background-color: white;
+}
+
+/* Header dan Footer */
+header, footer {
+    background-color: lightcoral;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+/* 2. Simple Selector */
+h1 {
+    color: blue;
+}
+
+#judul {
+    color: red;
+}
+
+.teks {
+    font-size: 18px;
+}
+
+/* 3. Combinator Selector */
+div p {
+    color: green;
+}
+
+/* 4. Pseudo-Class Selector */
+a:hover {
+    color: red;
+}
+
+/* 5. Attribute Selector */
+input[type="text"] {
+    background-color: yellow;
+}
+
+/* 6. Pseudo-Element Selector */
+p::first-letter {
+    color: purple;
+    font-size: 25px;
+}

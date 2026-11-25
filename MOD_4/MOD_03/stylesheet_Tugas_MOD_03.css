@@ -1,0 +1,37 @@
+
+/* Mengatur tampilan seluruh halaman */
+body {
+    background-color: #e3ecf5;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+/* Mengatur judul utama */
+h1 {
+    text-align: center;
+    color: #1e3a5f;
+}
+
+/* Mengatur subjudul */
+.subjudul {
+    text-align: center;
+    color: #555555;
+    font-size: 16px;
+}
+
+/* Mengatur garis pembatas */
+hr {
+    border: 1px solid #8ca6c0;
+}
+
+/* Mengatur judul identitas */
+h2 {
+    color: #24527a;
+}
+
+/* Mengatur isi biodata */
+p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.8;
+}
